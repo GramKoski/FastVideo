@@ -1,5 +1,6 @@
 from fastvideo.configs.models.dits.cosmos import CosmosVideoConfig
 from fastvideo.configs.models.dits.cosmos2_5 import Cosmos25VideoConfig
+from fastvideo.configs.models.dits.hunyuanimage3 import HunyuanImage3Config
 from fastvideo.configs.models.dits.hunyuanvideo import HunyuanVideoConfig
 from fastvideo.configs.models.dits.hunyuanvideo15 import HunyuanVideo15Config
 from fastvideo.configs.models.dits.longcat import LongCatVideoConfig
@@ -9,7 +10,7 @@ from fastvideo.configs.models.dits.wanvideo import WanVideoConfig
 from fastvideo.configs.models.dits.hyworld import HYWorldConfig
 
 __all__ = [
-    "HunyuanVideoConfig", "HunyuanVideo15Config", "WanVideoConfig",
+    "HunyuanVideoConfig", "HunyuanVideo15Config", "HunyuanImage3Config", "WanVideoConfig",
     "StepVideoConfig", "CosmosVideoConfig", "Cosmos25VideoConfig",
     "LongCatVideoConfig", "LTX2VideoConfig", "HYWorldConfig"
 ]
